@@ -8,5 +8,5 @@ services:
 
   redis:
     extends:
-      file: common.yml
+      file: redis.yml
       service: redis
